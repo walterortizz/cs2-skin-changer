@@ -14,6 +14,6 @@ exports.config = {
   STEAMAPIKEY: process.env.STEAMAPIKEY,
   connect: {
     show: true,
-    url: "steam://connect/15.228.0.15:27015?appid=730/",
+    url: `steam://connect/${process.env.SERVER_IP}:27015?appid=730/`,
   },
 };
